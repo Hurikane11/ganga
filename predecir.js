@@ -3,7 +3,7 @@ var static, c = 0;
 function predecir() {
   canPredict = false;
   document.getElementById("predictionResult").innerHTML = "";
-  let xer = [1.3, 1.23, 1.78, 2.12, 1.88, 2.76, 3.11, 1.12, 2,13, 1.11, 6.23, 3.8, 1.17, 2.09, 3.84, 1.33, 10.47, 1.37, 2.17, 5.41, 6.14, 1.14, 3.8, 1.35, 2.34, 3.23, 1.43, 1.82, 1.99];
+  let xer = [3.78, 3.77, 1.23, 1.00, 2.62, 2.35, 2.56, 1.12, 2,13, 1.11, 6.23, 3.8, 1.17, 2.09, 3.84, 1.33, 10.47, 1.37, 2.17, 5.41, 6.14, 1.14, 3.8, 1.35, 2.34, 3.23, 1.43, 1.82, 1.99];
   var num = xer[c];
   setTimeout(function() {
     document.getElementById("predictionResult").innerHTML = num.toFixed(2) + "x";
